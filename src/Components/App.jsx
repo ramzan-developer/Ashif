@@ -1,7 +1,7 @@
 import './App.css';
 import '../../src/index.css';
-import Header from './Header.jSX';
-import Content from './content.jSX';
+import Header from './Header.jsx';
+import Content from './content.jsx';
 import Slide from './Slide.jsx';
 import Process from './Process';
 import Footer from './Footer';
