@@ -7,12 +7,14 @@ body {
   overflow-x: hidden;
 }
 .Navbar{
-  padding: 30px;
-  margin-inline: 70px;
+ margin-top: 20px;
 }
+
 .nav1{
-  padding-inline: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 .img1{
 z-index: 0;
 position: relative;
@@ -26,10 +28,26 @@ position: relative;
   position: absolute;
   margin-left: 20px;
 }
-.header1{
-  padding: 130px;
-margin-top: -100px;
+@media (min-width: 768px) {
+  .header1 {
+    padding: 8rem; 
+  }
 }
+
+
+@media (max-width: 768px) {
+  .header1 {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header1 {
+    padding: 50rem;
+  }
+}
+
+
 .vidcon-a{
   margin-top: 50px;
   box-shadow: 0 0 7px 3px rgb(0, 0, 0);
@@ -42,7 +60,11 @@ iframe {
   overflow: clip;
   box-shadow: 0 0 7px 3px rgb(0, 0, 0);
 }
-
+@media (max-width: 768px) {
+  iframe {
+    margin-top: 3rem;
+  }
+}
 
 .line {
   display: flex;
