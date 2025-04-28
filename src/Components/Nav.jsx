@@ -44,7 +44,7 @@ function Nav() {
                 {/* Call Button (Visible on larger screens) */}
                 <div className='hidden md:flex items-center'>
                     <button className='nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-2xl rounded-xl w-[12rem] h-[3rem] font-bold'>
-                        Book a Call
+                        <a href='https://www.instagram.com/editwithashif?igsh=bzhhaXo1bmR0ajV4' target="_blank">Book a Call</a>
                     </button>
                 </div>
             </div>
@@ -65,7 +65,7 @@ function Nav() {
                     </ul>
                      {/* Add the "Book a Call" button */}
         <button className='nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-2xl rounded-xl w-[10rem] h-[3rem] font-bold ' style={{ marginTop: '2rem' }} onClick={toggleMenu}>
-            Book a Call
+           <a href='https://www.instagram.com/editwithashif?igsh=bzhhaXo1bmR0ajV4' target="_blank"></a> Book a Call
         </button>
                 </div>
             )}

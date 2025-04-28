@@ -28,11 +28,11 @@ position: relative;
   position: absolute;
   margin-left: 20px;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .header1 {
     padding: 8rem; 
   }
-}
+} */
 
 
 @media (max-width: 768px) {
@@ -43,7 +43,7 @@ position: relative;
 
 @media (max-width: 480px) {
   .header1 {
-    padding: 50rem;
+    padding: 2rem;
   }
 }
 
@@ -65,15 +65,28 @@ iframe {
     margin-top: 3rem;
   }
 }
-
-.line {
+@media (max-width: 768px) {
+  .line {
   display: flex;
   background-color: aqua;
   background-image: linear-gradient(rgba(0, 0, 1, 0.934), rgb(0, 225, 255), rgb(255, 255, 255), rgb(34, 222, 235), rgba(0, 0, 1,0.934));
   height: 290px;
   width: 2px;
   rotate: 45deg;
+  }
 }
+@media (max-width: 480px) {
+  .line {
+    display: flex;
+    background-color: aqua;
+    background-image: linear-gradient(rgba(0, 0, 1, 0.934), rgb(0, 225, 255), rgb(255, 255, 255), rgb(34, 222, 235), rgba(0, 0, 1,0.934));
+    height: 100px;
+    width: 1px;
+    rotate: 42deg;
+  }
+}
+
+
 
 .scroll {
   overflow: hidden;

@@ -10,7 +10,7 @@ function Process() {
     <div>
          <h3 className=" text-5xl text-center font-medium" style={{margin: '80px'}}>Super simple to<br/>get started</h3>
          {/*Process container*/}
-        <div className="flex flex-col md:flex-row gap-10 justify-center items-center" style={{ margin: "130px" }}>
+        <div className="flex flex-col md:flex-row gap-10 justify-center items-center" style={{ margin: "50px" }}>
   <div>
     <h1 className="text-3xl font-medium" style={{ marginBottom: "20px" }}>Book a Call</h1>
     <p className="text-xl">15 minutes to talk about your goals and needs</p>
@@ -70,7 +70,7 @@ function Process() {
       className="nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-xl rounded-xl h-14 w-45 font-bold inset-shadow-sm inset-shadow-green-300"
       style={{ marginTop: "30px" }}
     >
-      Work with me
+      <a href='https://www.instagram.com/editwithashif?igsh=bzhhaXo1bmR0ajV4' target="_blank">Work with me</a>
     </button>
   </div>
 </div>

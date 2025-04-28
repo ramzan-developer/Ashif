@@ -2,11 +2,17 @@
 import React from 'react';
 import yt from '../Images/yt-test.webp';
 import yticon from '../Images/ytlogo.png';
+import Anime from '../Images/anime.png';
+import hindifact from '../Images/hindifact.png';
+import Baaz from '../Images/baaz.png';
+import Gerolt from '../Images/gerolt.png';
+import Motivation from '../Images/motivation.png';
+
 
 function Slide() {
   return (
     <div className='slide scroll shadow-lg' style={{boxShadow: '0px 0px 15px 2px black', paddingTop: '20px'}}>
-      <div className='scroll-content '>
+      {/* <div className='scroll-content '>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-100' src={yt} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -42,38 +48,75 @@ function Slide() {
             <p className='text-2xl'>hindifacts 5</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className='scroll-content '>
         <div className='sld flex-col justify-center'>
-          <img className='rounded-full w-100' src={yt} alt='hindifacts' />
+          <img className='rounded-full w-80' src={Anime} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
             <p className='text-2xl'>hindifacts 1</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
-          <img className='rounded-full w-100' src={yt} alt='hindifacts' />
+          <img className='rounded-full w-80' src={Baaz} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
             <p className='text-2xl'>hindifacts 2</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
-          <img className='rounded-full w-100' src={yt} alt='hindifacts' />
+          <img className='rounded-full w-80' src={Gerolt} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
             <p className='text-2xl'>hindifacts 3</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
-          <img className='rounded-full w-100' src={yt} alt='hindifacts' />
+          <img className='rounded-full w-80' src={hindifact} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
             <p className='text-2xl'>hindifacts 4</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
-          <img className='rounded-full w-100' src={yt} alt='hindifacts' />
+          <img className='rounded-full w-80' src={Motivation} alt='hindifacts' />
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={yticon} alt='logo' style={{ width: '50px' }} />
+            <p className='text-2xl'>hindifacts 5</p>
+          </div>
+        </div>
+      </div>
+      <div className='scroll-content '>
+        <div className='sld flex-col justify-center'>
+          <img className='rounded-full w-80' src={Anime} alt='hindifacts' />
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={yticon} alt='logo' style={{ width: '50px' }} />
+            <p className='text-2xl'>hindifacts 1</p>
+          </div>
+        </div>
+        <div className='sld flex-col justify-center'>
+          <img className='rounded-full w-80' src={Baaz} alt='hindifacts' />
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={yticon} alt='logo' style={{ width: '50px' }} />
+            <p className='text-2xl'>hindifacts 2</p>
+          </div>
+        </div>
+        <div className='sld flex-col justify-center'>
+          <img className='rounded-full w-80' src={Gerolt} alt='hindifacts' />
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={yticon} alt='logo' style={{ width: '50px' }} />
+            <p className='text-2xl'>hindifacts 3</p>
+          </div>
+        </div>
+        <div className='sld flex-col justify-center'>
+          <img className='rounded-full w-80' src={hindifact} alt='hindifacts' />
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={yticon} alt='logo' style={{ width: '50px' }} />
+            <p className='text-2xl'>hindifacts 4</p>
+          </div>
+        </div>
+        <div className='sld flex-col justify-center'>
+          <img className='rounded-full w-80' src={Motivation} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
             <p className='text-2xl'>hindifacts 5</p>
