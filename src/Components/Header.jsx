@@ -2,9 +2,9 @@ import './App.css';
 import '../../src/index.css';
 import React from 'react';
 import logo from '../Images/sun.png';
-import Anime from '../Images/anime.png';
+import Anime from '../Images/Anime.png';
 import hindifact from '../Images/hindifact.png';
-import Baaz from '../Images/baaz.png';
+import Baaz from '../Images/Baaz.png';
 
 function Header() {
   return (

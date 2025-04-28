@@ -2,11 +2,11 @@
 import React from 'react';
 import yt from '../Images/yt-test.webp';
 import yticon from '../Images/ytlogo.png';
-import Anime from '../Images/anime.png';
+import Anime from '../Images/Anime.png';
 import hindifact from '../Images/hindifact.png';
-import Baaz from '../Images/baaz.png';
-import Gerolt from '../Images/gerolt.png';
-import Motivation from '../Images/motivation.png';
+import Baaz from '../Images/Baaz.png';
+import Gerolt from '../Images/Gerolt.png';
+import Motivation from '../Images/Motivation.png';
 
 
 function Slide() {
