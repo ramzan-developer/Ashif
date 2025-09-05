@@ -9,7 +9,7 @@ function Footer() {
         <p style={{marginLeft:'10px'}}>@2025 | Ashif Edits</p>
       </div>
       <div className='center'><p>Designed & Built by Ramzan</p></div>
-      <div className='right' style={{marginRight: '5%', color: 'white'}}><p>Work with me</p></div>
+      <div className='right transition transform hover:scale-105 hover:shadow-lg' style={{marginRight: '5%', color: 'white'}}><p>Work with me</p></div>
     </div>
 
     

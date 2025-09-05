@@ -1,11 +1,13 @@
 import React from 'react';
-import img1 from '../Images/reel.webp';
+import img1 from '../Images/1.jpeg';
+import img2 from '../Images/2.jpeg';
+import img3 from '../Images/3.jpeg';
 
 
 
 function Content() {
   return (
-    <>
+    <div id='work'>
       <div className='content-text' style={{paddingTop: "90px"}}>
           <h3 className=" text-[3rem] md:text-[4rem] text-center font-medium">Short form content <br/> that captures 
            <span className='text-[#0EC582]'> attention</span> </h3>
@@ -51,7 +53,7 @@ function Content() {
       </div>
       </div>
 
-      <div className='content-main'>
+      <div className='content-main' id="Testimonial">
         <div className='result-text'>
           <h3 className='text-[3rem] md:text-[4rem] text-center font-medium' style={{marginTop: "100px"}}>The <span className='text-[#0EC582]'>
           results</span> speak<br/>for themselves</h3>
@@ -66,12 +68,12 @@ function Content() {
     />
     <img
       className="img-r col-span-1 duration-300 hover:scale-105 hover:shadow-xl"
-      src={img1}
+      src={img2}
       alt="img2"
     />
     <img
       className="img-r col-span-1 duration-300 hover:scale-105 hover:shadow-xl"
-      src={img1}
+      src={img3}
       alt="img3"
     />
   </div>
@@ -84,7 +86,7 @@ function Content() {
             <div className='line'></div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -54,35 +54,35 @@ function Slide() {
           <img className='rounded-full w-80' src={Anime} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 1</p>
+            <p className='text-2xl'>Anime Squad</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-80' src={Baaz} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 2</p>
+            <p className='text-2xl'>Baaz Gaming</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-80' src={Gerolt} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 3</p>
+            <p className='text-2xl'>Gerolt Gaming</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-80' src={hindifact} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 4</p>
+            <p className='text-2xl'>hindifacts</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-80' src={Motivation} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 5</p>
+            <p className='text-2xl'>Beast Spark</p>
           </div>
         </div>
       </div>
@@ -91,35 +91,35 @@ function Slide() {
           <img className='rounded-full w-80' src={Anime} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 1</p>
+            <p className='text-2xl'>Anime Squad</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-80' src={Baaz} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 2</p>
+            <p className='text-2xl'>Baaz Gaming</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-80' src={Gerolt} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 3</p>
+            <p className='text-2xl'>Gerolt Gaming</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-80' src={hindifact} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 4</p>
+            <p className='text-2xl'>hindifacts</p>
           </div>
         </div>
         <div className='sld flex-col justify-center'>
           <img className='rounded-full w-80' src={Motivation} alt='hindifacts' />
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img src={yticon} alt='logo' style={{ width: '50px' }} />
-            <p className='text-2xl'>hindifacts 5</p>
+            <p className='text-2xl'>Beast Spark</p>
           </div>
         </div>
       </div>

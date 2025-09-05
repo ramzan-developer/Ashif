@@ -51,7 +51,7 @@ function Process() {
       alt="Profile"
     />
   </div>
-  <div className="RightText flex flex-col">
+  <div id="about" className="RightText flex flex-col">
     <div className="text1 text-5xl font-medium">
       <h3>Face Behind the Brand</h3>
     </div>
@@ -67,10 +67,10 @@ function Process() {
       </p>
     </div>
     <button
-      className="nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-xl rounded-xl h-14 w-45 font-bold inset-shadow-sm inset-shadow-green-300"
+      className="transition transform hover:scale-105 hover:shadow-lg nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-xl rounded-xl h-14 w-45 font-bold inset-shadow-sm inset-shadow-green-300"
       style={{ marginTop: "30px" }}
     >
-      <a href='https://www.instagram.com/editwithashif?igsh=bzhhaXo1bmR0ajV4' target="_blank">Work with me</a>
+      <a href='https://www.instagram.com/ashifxvisual?igsh=ZXpuMWk5YXhub3A4' target="_blank">Work with me</a>
     </button>
   </div>
 </div>

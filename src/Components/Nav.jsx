@@ -11,7 +11,7 @@ function Nav() {
 
     return (
         <div >
-        <div className='Navbar fixed w-full rounded-2xl top-0 z-50 bg-neutral-300/4 shadow-lg backdrop-blur-sm px-4'>
+        <div className='Navbar sticky top-0 w-full rounded-2xl  z-50 bg-neutral-300/4 shadow-lg backdrop-blur-sm '>
             {/* Navbar Container */}
             <div className='nav1 px-4 py-2 md:h-18 flex justify-between items-center'>
                 {/* Profile Picture */}
@@ -36,15 +36,28 @@ function Nav() {
 
                 {/* Navigation Links (Visible on larger screens) */}
                 <div className='hidden md:flex gap-6 text-2xl'>
-                    <a href='/#'>Work</a>
-                    <a href='/#'>About Me</a>
-                    <a href='/#'>Testimonials</a>
+                
+                    <a className='transition transform hover:scale-105 hover:shadow-lg' href='/#' onClick={() => {
+          document.getElementById("work").scrollIntoView({
+            behavior: "smooth",
+          });
+        }}>Work</a>
+                    <a className='transition transform hover:scale-105 hover:shadow-lg' href='/#' onClick={() => {
+          document.getElementById("about").scrollIntoView({
+            behavior: "smooth",
+          });
+        }}>About Me</a>
+                    <a className='transition transform hover:scale-105 hover:shadow-lg' href='/#' onClick={() => {
+          document.getElementById("Testimonial").scrollIntoView({
+            behavior: "smooth",
+          });
+        }}>Testimonials</a>
                 </div>
 
                 {/* Call Button (Visible on larger screens) */}
                 <div className='hidden md:flex items-center'>
-                    <button className='nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-2xl rounded-xl w-[12rem] h-[3rem] font-bold'>
-                        <a href='https://www.instagram.com/editwithashif?igsh=bzhhaXo1bmR0ajV4' target="_blank">Book a Call</a>
+                    <button className='transition transform hover:scale-105 hover:shadow-lg nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-2xl rounded-xl w-[12rem] h-[3rem] font-bold'>
+                        <a href='https://www.instagram.com/ashifxvisual?igsh=ZXpuMWk5YXhub3A4' target="_blank">Book a Call</a>
                     </button>
                 </div>
             </div>

@@ -24,8 +24,8 @@ function Header() {
         </h3>
         {/* Button & Icons */}
         <div className="flex flex-row items-center gap-5 md:gap-10">
-          <button className="bg-[#08915F] border-4 border-[#055B3C] text-white text-xl md:text-2xl rounded-xl px-6 py-3 font-bold shadow-md">
-            <a href='https://www.instagram.com/editwithashif?igsh=bzhhaXo1bmR0ajV4' target="_blank">Work with me</a>
+          <button className="bg-[#08915F] border-4 border-[#055B3C] text-white text-xl md:text-2xl rounded-xl px-6 py-3 font-bold shadow-md transition transform hover:scale-105 hover:shadow-lg">
+            <a href='https://www.instagram.com/ashifxvisual?igsh=ZXpuMWk5YXhub3A4' target="_blank">Work with me</a>
           </button>
           {/* Icons Section */}
           <div className='md:flex md:flex-col md:items-center'>
