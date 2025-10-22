@@ -67,18 +67,30 @@ function Nav() {
                 <div className='flex flex-col items-center justify-center h-auto bg-neutral-300/4 shadow-lg backdrop-blur-sm' style={{ padding: '20px' }}>
                     <ul className='flex flex-col gap-6 text-2xl '>
                         <li>
-                            <a href='/#' onClick={toggleMenu}>Work</a>
+                            <a href='/#' onClick={() => {
+          document.getElementById("work").scrollIntoView({
+            behavior: "smooth",
+          });
+        }}>Work</a>
                         </li>
                         <li>
-                            <a href='/#' onClick={toggleMenu}>About Me</a>
+                            <a href='/#' onClick={() => {
+          document.getElementById("about").scrollIntoView({
+            behavior: "smooth",
+          });
+        }}>About Me</a>
                         </li>
                         <li>
-                            <a href='/#' onClick={toggleMenu}>Testimonials</a>
+                            <a href='/#' onClick={() => {
+          document.getElementById("Testimonial").scrollIntoView({
+            behavior: "smooth",
+          });
+        }}>Testimonials</a>
                         </li>
                     </ul>
                      {/* Add the "Book a Call" button */}
-        <button className='nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-2xl rounded-xl w-[10rem] h-[3rem] font-bold ' style={{ marginTop: '2rem' }} onClick={toggleMenu}>
-           <a href='https://www.instagram.com/editwithashif?igsh=bzhhaXo1bmR0ajV4' target="_blank"></a> Book a Call
+        <button className='nav-button bg-[#08915F] border-4 border-[#055B3C] text-neutral-100 text-2xl rounded-xl w-[10rem] h-[3rem] font-bold ' style={{ marginTop: '2rem' }} >
+           <a href='https://www.instagram.com/ashifxvisual/?igsh=ZXpuMWk5YXhub3A4#' target="_blank"> Book a Call</a>
         </button>
                 </div>
             )}
